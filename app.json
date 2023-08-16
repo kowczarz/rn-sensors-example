@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-sensors-example",
-    "slug": "rn-sensors-example",
+    "name": "rn-sensor-example",
+    "slug": "rn-sensor-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.swm.owczarz.rnsensorexample"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.swm.owczarz.rnsensorexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
